@@ -1,0 +1,97 @@
+/* css colors exer */
+/* *{
+    background-color: antiquewhite;
+}
+h1{
+    color: whitesmoke;
+    background: darkseagreen;
+}
+h2{
+    color: #FAF8F1;
+    background: #C58940;
+} */
+
+/* ========================================================= */
+/* font properties exer */
+/* :root{
+    font-size: xx-large;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    text-align: left;
+}
+#pixel{
+    font-size: 20px;
+}
+#point{
+    font-size: 20pt;
+}
+#em{
+    font-size: 1em;
+}
+#rem{
+    font-size: 1rem;
+}
+footer{
+    font-size: 12pt;
+} */
+
+/* ========================================================= */
+/* css box model */
+/* p{
+    margin: 0;
+    display: block;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+#top{
+    display: block;
+    background-color: aqua; 
+    border: 10px solid black;
+    width: 300px;
+    padding: 20px 30px 10px;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+
+}
+#bot{
+    display: block;
+    background-color: cornflowerblue; 
+    border: 10px solid black;
+    width: 300px;
+    padding: 20px 30px 10px;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+} */
+
+/* css box model exer */
+div{
+    height: 200px;
+    width: 200px;
+}
+p{
+    margin: 0;
+}
+#red{
+    background-color: red;
+    padding: 20px;
+    border: 10px solid black;
+}
+#blue{
+    background-color: blue;
+    border-top: 20px solid black;
+    border-bottom: 20px solid black;
+    border-left: 10px solid black;
+    border-right: 10px solid black;
+    margin-left: 260px;
+}
+#green{
+    background-color: green;
+    border: 10px solid black;
+    margin-left: 40px;
+}

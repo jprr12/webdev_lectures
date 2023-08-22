@@ -1,0 +1,17 @@
+:root{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+img{
+    border: 5px solid white;
+    width: 100%;
+}
+#meme{
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 50px;
+}
+h1{
+    text-transform: uppercase;
+}

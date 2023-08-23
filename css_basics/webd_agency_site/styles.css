@@ -1,0 +1,152 @@
+:root{
+    background-color: #272829;
+    color: white;
+}
+/* ======================================== */
+/* css display */
+/* p{
+    margin: 0;
+    display: inline;
+}
+#game{
+    color: aqua;
+} */
+
+/* css display challenge 1 */
+/* .red, .green, .blue{
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+} */
+/* .red{
+    background-color: red;
+}
+.green{
+    background-color: green;
+}
+.blue{
+    background-color: blue;
+} */
+
+/* css display challenge 1 */
+/* .red, .green, .blue{
+    display: block;
+    width: 200px;
+    height: 200px;
+} */
+
+/* ======================================== */
+/* css float */
+/* img{
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin: 0 20px 20px 0;
+}
+footer{
+    clear: left;
+} */
+
+/* .header, footer{
+    display: block;
+    text-align: center;
+}
+.sidebar, .main{
+    display: inline-block;
+    text-align: center;
+    height: 400px;
+}
+.sidebar{
+    float: left;
+    width: 30%;
+    background-color: yellow;
+}
+.main{
+    float: right;
+    background-color: blue;
+    width: 70%;
+}
+.header{
+    background-color: green;
+    height: 50px;
+}
+footer{
+    clear: both;
+    background-color: purple;
+    height: 50px;
+}
+img{
+    width: 300px;
+}
+.main h1, .main h2, .main p{
+    padding: 0 100px;
+} */
+
+/* css float challenge */
+div{
+    text-align: justify;
+}
+h1{
+    text-align: center;
+}
+p{
+    margin-right: 20px;
+}
+.burger, #burger, #pizza{
+    float: left;
+}
+.pizza{
+    float: right;
+}
+.burger, .pizza{
+    width: 50%;
+}
+#pizza, #burger{
+    width: 300px;
+    height: 200px;
+    margin: 0 20px 20px 20px;
+}
+.burger{
+    background-color: yellowgreen;
+}
+.pizza{
+    background-color: green;
+}
+footer{
+    clear: both;
+    margin-top: 20px;
+    background-color: blue;
+}
+
+/* ======================================== */
+/* creating responsive websites */
+/* div{
+    text-align: center;
+}
+@media (max-width: 700px){
+    img{
+        width: 400px;
+    }
+} */
+
+/* media query exer */
+/* @media (min-width: 1601px){
+    :root{
+        background-color: seagreen;
+    }
+}
+@media (max-width: 1600px) and (min-width: 1201px){
+    :root{
+        background-color: limegreen;
+    }
+}
+@media (max-width: 1200px) and (min-width: 481px){
+    :root{
+        background-color: powderblue;
+    }
+}
+@media (max-width: 480px) and (min-width: 319px){
+    :root{
+        background-color: lightsalmon;
+    }
+} */

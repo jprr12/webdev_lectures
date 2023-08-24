@@ -1,0 +1,83 @@
+:root{
+    background-color: #272829;
+    color: white;
+}
+
+/* display flex exer */
+/* .container{
+    padding: 10px;
+    display: flex;
+    gap: 20px;
+}
+p{
+    margin: 0;
+}
+li{
+    list-style: none;
+} */
+
+/* ========================================= */
+/* flex direction exer */
+/* .container{
+    color: white;
+    border: 5px solid gold;
+    display: flex;
+    flex-direction: column;
+    width: 50px;
+}
+.red{background-color: red;}
+.orange{background-color: orange;}
+.yellow{background-color: yellow;}
+.green{background-color: green;}
+.blue{background-color: blue}
+.indigo{background-color: indigo}
+.purple{background-color: purple;}
+
+.red, .orange, .yellow, .green, .blue, .indigo, .purple{
+    height: 80px;
+} */
+
+/* ========================================= */
+/* flex layout */
+/* .container{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 100vh;
+    justify-content: center;
+    align-content: baseline;
+}
+.red{background-color: red;}
+.orange{background-color: orange;}
+.yellow{background-color: yellow;}
+.green{background-color: green;}
+.blue{background-color: blue}
+.indigo{background-color: indigo}
+.purple{background-color: purple;}
+.pink{background-color: pink;}
+
+.red, .orange, .yellow, .green, .blue, .indigo, .purple, .pink{
+    text-align: center;
+    width: 80px;
+    height: 40px;
+} */
+
+/* ========================================= */
+/* flex sizing */
+/* .container{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+p{
+    padding: 10px;
+    background-color: cadetblue;
+    flex: 1;
+}
+.long{
+    flex: 2.5;
+} */
+
+/* ========================================= */
+/*  */

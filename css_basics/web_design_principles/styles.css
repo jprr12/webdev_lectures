@@ -1,0 +1,28 @@
+#title, #contact{
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#title{
+    background-image: url(img/beach_bg.jpg);
+}
+#contact{
+    background-image: url(img/tropical.jpg);
+
+}
+#features{
+    height: 100vh;
+}
+.extra-m{
+    padding-top: 250px;
+}
+.white{
+    color: white;
+}
+
+@media (max-width: 700px){
+    #features{
+        height: auto;
+    }
+}

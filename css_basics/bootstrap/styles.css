@@ -1,0 +1,47 @@
+/* :root{
+    background-color: #272829;
+    color: white;
+} */
+
+/* bootstrap */
+/* using bootstrap with native css */
+/* .flex-container{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    background-color: #272829;
+} */
+
+/* ========================================================= */
+/* bootstrap layout */
+/* .col-sm-2{
+    background-color: aqua;
+}
+.col-sm-4{
+    background-color: blueviolet;
+}
+.col-sm-6{
+    background-color: red;
+}
+.col-sm-12, .col-md-8, .col-lg-4{
+    background-color: blue;
+}
+.flex-row{
+    display: flex;
+    justify-content: center;
+} */
+
+/* ========================================================= */
+/* bootstrap components */
+.flex-container{
+    display: flex;
+    flex-direction: row;
+}
+.feature-icon {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 0.75rem;
+}

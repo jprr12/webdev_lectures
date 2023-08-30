@@ -1,0 +1,25 @@
+:root{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+#about{
+    height: 80vh;
+}
+#profile-pic{
+    border-radius: 50%;
+    height: 200px;
+}
+.white-text{
+    color: white;
+}
+form{
+    box-shadow: 5px 5px 10px #E4E4D0;
+}
+.feature-icon{
+    height: 4rem;
+    width: 4rem;
+    border-radius: 0.75rem;
+}

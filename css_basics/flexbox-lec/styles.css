@@ -1,0 +1,333 @@
+/* ==================== lec ==================== */
+/* .flex-container{
+    display: flex;
+    padding: 16px;
+    background-color: purple;
+    gap: 4px;
+}
+.flex-container div{
+    border: 4px solid black;
+    height: 100px;
+    flex: 1 1 auto;
+}
+.flex-container .red{
+    background-color: red;
+}
+.flex-container .blue{
+    background-color: blue;
+    flex-shrink: 0;
+    min-width: 250px;
+    max-width: 400px;
+}
+.flex-container .yellow{
+    background-color: yellow;
+}
+
+
+.flex-container-column{
+    display: flex;
+    padding: 16px;
+    margin: 8px 0;
+    background-color: blue;
+    gap: 8px;
+    flex-direction: column;
+}
+.flex-container-column div{
+    border: 4px solid black;
+    height: 50px;
+    flex: auto;
+}
+.green{
+    background-color: green;
+}
+.grey{
+    background-color: grey;
+}
+.pink{
+    background-color: pink;
+}
+
+
+.alignment{
+    display: flex;
+    height: 140px;
+    padding: 16px;
+    margin: 8px 0;
+    background-color: plum;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.item{
+    width: 60px;
+    height: 60px;
+    border: 4px solid black;
+    background-color: skyblue;
+} */
+
+/* ========================================== */
+/* header challenge */
+/* .header{
+    font-family: monospace;
+    display: flex;
+    background-color: papayawhip;
+    padding: 8px;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    font-size: 48px;
+    font-weight: bold;
+    color: tomato;
+    padding: 4px 32px;
+    background-color: white;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    gap: 8px;
+    margin: 0;
+    padding: 0;
+}
+a{
+    font-size: 22px;
+    padding: 8px;
+    text-decoration: none;
+    background-color: white;
+} */
+
+/* ========================================== */
+/* header challenge */
+/* @import url('https://fonts.googleapis.com/css2?family=Besley:ital,wght@0,400;1,900&display=swap');
+body{
+    margin: 0;
+    background-color: #eee;
+    font-family: Besley, serif;
+}
+.header{
+    background-color: white;
+    border-bottom: 1px solid #ddd;
+    box-shadow: 0 0 8px rgba(0, 0, 0, .1);
+
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+}
+.profile-image{
+    border-radius: 50%;
+    background-color: rebeccapurple;
+    box-shadow: inset 2px 2px 4px rgba(0, 0, 0, .5);
+    width: 48px;
+    height: 48px;
+}
+.logo{
+    color: rebeccapurple;
+    font-size: 32px;
+    font-weight: bold;
+    font-style: italic;
+}
+button{
+    border: none;
+    border-radius: 8px;
+    background-color: rebeccapurple;
+    color: white;
+    padding: 8px 24px;
+}
+a{
+    text-decoration: none;
+    color: rebeccapurple;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 16px;
+}
+.left, .right{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+} */
+
+/* ========================================== */
+/* flex information challenge */
+/* img{
+    width: 100px;
+    height: 100px;
+}
+.title{
+    font-size: 36px;
+    font-weight: bold;
+}
+.another-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+.below{
+    display: flex;
+    gap: 52px;
+}
+.plant-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+    text-align: center;
+} */
+
+/* ========================================== */
+/* flex modal challenge */
+/* html, body{
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: sans-serif;
+    background-color: #aaa;
+    color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.modal{
+    background-color: white;
+    width: 480px;
+    border-radius: 10px;
+    box-shadow: 2px 4px 16px rgba(0,0,0,0.2);
+
+    padding: 16px;
+    display: flex;
+    gap: 16px;
+}
+.icon{
+    color: royalblue;
+    font-size: 26px;
+    font-weight: bold;
+    background-color: lavender;
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    flex-shrink: 0;
+}
+.close-button{
+    background-color: #eee;
+    border-radius: 50%;
+    color: #888;
+    font-weight: 400;
+    font-size: 16px;
+    height: 24px;
+    width: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #eee;
+    padding: 0;
+}
+button{
+    cursor: pointer;
+    padding: 8px 16px;
+    border-radius: 6px;
+}
+button.continue{
+    background-color: royalblue;
+    border: 1px solid royalblue;
+    color: white;
+}
+button.cancel{
+    background-color: white;
+    border: 1px solid #ddd;
+    color: royalblue;
+}
+.header{
+    font-weight: bolder;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+} */
+
+/* ========================================== */
+/* google homepage with flexbox challenge */
+html, body, ul{
+    margin: 0;
+    padding: 0;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.logo{
+    font-family: 'Georama';
+    font-size: 5rem;
+}
+ul.links, .content, ul.left, ul.right, .buttons{
+    display: flex;
+}
+.content{
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+    gap: 24px;
+}
+input{
+    width: 50vw;
+    padding: 8px 24px;
+    font-size: 1rem;
+    border-radius: 16px;
+    border: 1px solid grey;
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.2);
+}
+.buttons{
+    gap: 12px;
+}
+button{
+    padding: 8px;
+    border-radius: 6px;
+    border: 1px solid white;
+    cursor: pointer;
+}
+button:hover{
+    border: 1px solid black;
+}
+.footer{
+    background-color: #F5F5F5;
+    display: flex;
+    flex-shrink: 0;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 32px;
+}
+ul.left, ul.right{
+    gap: 16px;
+}
+ul.links{
+    gap: 8px;
+    justify-content: end;
+    padding: 8px;
+}
+.profile-img{
+    background-color: green;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+}

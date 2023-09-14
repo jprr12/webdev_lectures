@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox Lecture</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Georama:wght@600&family=Merriweather&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- flexbox revisited -->
+    <!-- 
+        - html elements view by default is block
+        - flexbox (display: flex) is a way to arrange items into rows/columns
+     -->
+    <!-- <div class="flex-container">
+        <div class="red"></div>
+        <div class="blue"></div>
+        <div class="yellow"></div>| -->
+        <!-- 
+            adding a new div will result to all the elements 'flexing' 
+            to accomodate the newdiv
+         -->
+        <!-- <div class="new"></div>
+    </div> -->
+
+    <!-- 
+        - display: flex is applied to the container/flex container
+        - flex properties are applied to the items/flex items
+    -->
+
+    <!-- ====================================================================== -->
+    <!-- growing and shrinking -->
+    <!-- 
+        - flex: 1 => shorthand for flex: *flex-grow *flex-shrink *flex-basis
+        - flex-grow determines the ratio of item sizes on screen
+        - flex-shrink: 1 means item will shrink
+        - flex-shrink: 0 means item will not shrink
+        - specifying flex-grow/shrink will ignore your custom width
+        - add min/max width to specify dimension for a given viewport
+        - flex-basis: 0 ignores width/height
+     -->
+    
+    <!-- ====================================================================== -->
+    <!-- axes -->
+    <!-- 
+        - default flex-direction is row
+        - use flex-direction: column instead
+    -->
+    <!-- <div class="flex-container-column">
+        <div class="green"></div>
+        <div class="grey"></div>
+        <div class="pink"></div>
+    </div> -->
+
+    <!-- ====================================================================== -->
+    <!-- alignment -->
+    <!-- 
+        - flex is also useful for arranging items that have specific sizes
+        - justify-content/align-items
+    -->
+    <!-- <div class="alignment">
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+    </div> -->
+
+    <!-- ====================================================================== -->
+    <!-- exercises -->
+    <!-- header challenge -->
+    <!-- <div class="header">
+        <div class="left-links">
+            <ul>
+                <li><a href="##">ONE</a></li>
+                <li><a href="##">TWO</a></li>
+                <li><a href="##">THREE</a></li>
+            </ul>
+        </div>
+
+        <div class="logo">LOGO</div>
+
+        <div class="right-links">
+            <ul>
+                <li><a href="##">FOUR</a></li>
+                <li><a href="##">FIVE</a></li>
+                <li><a href="##">SIX</a></li>
+            </ul>
+        </div>
+    </div> -->
+
+    <!-- ====================================================================== -->
+    <!-- header challenge 2 -->
+    <!-- <div class="header">
+        <div class="left">
+            <div class="logo">LOGO</div>
+            <ul class="links">
+                <li><a href="##">link-one</a></li>
+                <li><a href="##">link-two</a></li>
+                <li><a href="##">link-three</a></li>
+            </ul>
+        </div>
+
+        <div class="right">
+            <button class="notification">1 new notification</button>
+            <div class="profile-image"></div>
+        </div>
+    </div> -->
+
+    <!-- ====================================================================== -->
+    <!-- flex information challenge -->
+    <!-- <div class="another-container">
+        <div class="title">Information</div>
+
+        <div class="below">
+            <div class="plant-item">
+                <img src="images/barberry.png" alt="">
+                <div class="text">This is a type of plant. We love this one!</div>
+            </div>
+            
+            <div class="plant-item">
+                <img src="images/chilli.png" alt="">
+                <div class="text">This is another type of plant. Isn't it nice?</div>
+            </div>
+
+            <div class="plant-item">
+                <img src="images/pepper.png" alt="">
+                <div class="text">We have so many plants. Yay plants!</div>
+            </div>
+
+            <div class="plant-item">
+                <img src="images/saffron.png" alt="">
+                <div class="text">I'm running out of things to say about plants.</div>
+            </div>
+        </div>
+    </div> -->
+
+    <!-- ====================================================================== -->
+    <!-- flex modal challenge -->
+    <!-- <div class="modal">
+        <div class="icon">!</div>
+
+        <div class="right">
+            <div class="header">
+                Are you sure you want to do that?
+                <button class="close-button">✖</button>
+            </div>
+            <div class="text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Necessitatibus esse ipsa quibusdam similique deleniti, dolorem praesentium recusandae animi culpa reiciendis fuga harum nisi porro rem corrupti quaerat alias magni nostrum.</div>
+            <div class="btns">
+                <button class="continue">Continue</button>
+                <button class="cancel">Cancel</button>
+            </div>
+
+        </div>
+    </div> -->
+
+    <!-- ====================================================================== -->
+    <!-- google homepage with flexbox challenge -->
+    <div class="header">
+        <ul class="links">
+            <li><a href="##">Gmail</a></li>
+            <li><a href="##">Images</a></li>
+            <li><a href="##">Apps</a></li>
+            <li><div class="profile-img"></div></li>
+        </ul>
+    </div>
+
+    <div class="content">
+        <div class="logo">Google</div>
+        <div class="input">
+            <input type="text">
+        </div>
+        <div class="buttons">
+            <button>Google Search</button>
+            <button>I'm Feeling Lucky</button>
+        </div>
+    </div>
+
+    <div class="footer">
+        <ul class="left">
+            <li><a href="##">About</a></li>
+            <li><a href="##">Advertising</a></li>
+            <li><a href="##">Business</a></li>
+            <li><a href="##">How Search Works</a></li>
+        </ul>
+        <ul class="right">
+            <li><a href="##">Privacy</a></li>
+            <li><a href="##">Terms</a></li>
+            <li><a href="##">Settings</a></li>
+        </ul>
+    </div>
+    
+
+
+</body>
+</html>
